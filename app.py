@@ -4,7 +4,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 import os
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = b'\xbe^\x82e\xd4oHf\xd7\xe1Jf\xf5\xaf\xd1f\xb6\x14C\xad\xed\xff .'
+app.config['SECRET_KEY'] = b'\x7f\xc2\x17r\xcb\xae\x903\x96\xfd@* \xc4\xa1h\x0f\x99\xa4\xa3\xe4\x1dmq'
 
 @app.teardown_appcontext
 def close_db(error):
